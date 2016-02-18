@@ -1,9 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  config.web_console.whitelisted_ips = '58.140.210.160'#내가 넣은 거
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
-  # since you don't have to restart the web server when you make code changes.
+  # since you don't have to restart the web server when you make code changes.내
   config.cache_classes = false
 
   # Do not eager load code on boot.
